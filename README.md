@@ -2,13 +2,6 @@
 
 # 📎url : 
 
-![](https://images.velog.io/images/hyerimiya/post/a0413948-6af3-4568-af36-ed9d00e3467b/pc.png)
-
-![](https://images.velog.io/images/hyerimiya/post/ea062fe1-8db5-4dd2-bb1a-456282eb81b7/tablet.png)
-
-![](https://images.velog.io/images/hyerimiya/post/5865746f-5723-4ca9-a03e-ae1c228a3acb/mobile.png)
-
-
 ## ✏ 프로젝트 소개
 한솥도시락 홈페이지 클론 코딩한 포트폴리오 사이트입니다.  
 반응형으로 제작하였고, 바닐라 자바스크립트로 구현하였습니다.  
@@ -32,5 +25,11 @@ HTML, CSS, JAVASCRIPT
 - 모바일 메뉴바 Toggle 기능
 - scroll 기능 (fixed)
 - PC gnb 메뉴의 hover, active 기능
-- Mobile의 footer 부분의 Toggle 기능
+- Mobile의 footer 부분의 Toggle 기능  
+
+![](https://images.velog.io/images/hyerimiya/post/a0413948-6af3-4568-af36-ed9d00e3467b/pc.png)
+
+![](https://images.velog.io/images/hyerimiya/post/ea062fe1-8db5-4dd2-bb1a-456282eb81b7/tablet.png)
+
+![](https://images.velog.io/images/hyerimiya/post/5865746f-5723-4ca9-a03e-ae1c228a3acb/mobile.png)
 
