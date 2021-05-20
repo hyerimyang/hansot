@@ -5,6 +5,7 @@ const slideWrap = document.querySelector('.slide-wrap');
 const slideList = document.querySelectorAll('.slide-list');
 const slideLength = slideList.length; 
 const slideWidth = 100 / (slideLength + 1); 
+
 // slide btn
 const slideBtn = document.querySelectorAll('.btn-dot');
 const pauseBtn = document.querySelector('.control-btn.pause');
@@ -32,9 +33,9 @@ let clear; // clearInterval를 위한
 
 function autoPlay() {
   clear = setInterval(() => {
-    slideWrap.style.transition = '.5s'; // transition
+    slideWrap.style.transition = '.5s';  
     slideWrap.style.transform = 
-    `translateX(-${slideWidth * (currentIndex + 1)}%`; // transform
+    `translateX(-${slideWidth * (currentIndex + 1)}%`;
     
     currentBtn.classList.remove('active');
     currentBtn = slideBtn[++currentIndex];				

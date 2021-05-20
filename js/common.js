@@ -1,12 +1,11 @@
 // (mobile) sitemap click
-// const sitemap = mMenu.querySelector('.sitemap');
 const mMenu = document.querySelector('.m-menu');
 mMenu.addEventListener('click', () => {
 	mMenu.classList.toggle('active');
 });
 
 
-// scroll 했을 때, .header.main fixed 되게하기
+// scroll 했을 때, .header.main fixed  
 const html = document.querySelector('html');
 const headerMain = html.querySelector('.header.main');
 
